@@ -27,7 +27,7 @@ def extract_resume_text(pdf_path):
 
 if __name__ == "__main__":
 
-    pdf_file = r"D:\Documents\RESUME\Uma_Surepalli_O.pdf"
+    pdf_file = input("Enter PDF file path: ")
 
     text = extract_resume_text(pdf_file)
 
